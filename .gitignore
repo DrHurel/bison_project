@@ -1,0 +1,8 @@
+bin
+obj
+debug
+src/flexson/lexer.cpp
+src/flexson/parser.cpp
+src/flexson/tokens.h
+
+.cache

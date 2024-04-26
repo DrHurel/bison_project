@@ -1,0 +1,49 @@
+[
+    {
+        "arguments": [
+            "/usr/bin/g++",
+            "-std=c++23",
+            "-w",
+            "-g",
+            "-c",
+            "-o",
+            "obj/main.o",
+            "src/main.cpp"
+        ],
+        "directory": "/home/hurel/bison-boilerplate",
+        "file": "/home/hurel/bison-boilerplate/src/main.cpp",
+        "output": "/home/hurel/bison-boilerplate/obj/main.o"
+    },
+    {
+        "arguments": [
+            "/usr/bin/g++",
+            "-c",
+            "-std=c++23",
+            "-w",
+            "-g",
+            "obj/main.o",
+            "-o",
+            "bin/parser",
+            "src/flexson/parser.cpp"
+        ],
+        "directory": "/home/hurel/bison-boilerplate",
+        "file": "/home/hurel/bison-boilerplate/src/flexson/parser.cpp",
+        "output": "/home/hurel/bison-boilerplate/bin/parser"
+    },
+    {
+        "arguments": [
+            "/usr/bin/g++",
+            "-c",
+            "-std=c++23",
+            "-w",
+            "-g",
+            "obj/main.o",
+            "-o",
+            "bin/parser",
+            "src/flexson/lexer.cpp"
+        ],
+        "directory": "/home/hurel/bison-boilerplate",
+        "file": "/home/hurel/bison-boilerplate/src/flexson/lexer.cpp",
+        "output": "/home/hurel/bison-boilerplate/bin/parser"
+    }
+]
